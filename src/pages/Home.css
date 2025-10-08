@@ -1,0 +1,66 @@
+.page-container {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #74d506e7;
+  }
+  .h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #05a6e5;
+    font-family: 'Fantasy', sans-serif;
+    animation: fadeIn 2s ease-in-out;
+  
+  }
+  .home-image {
+    width: 760px;
+    max-height: 395px;
+    object-fit: cover;
+    border-radius: 30px 50px;
+    margin-bottom: 20px;
+
+  }
+  
+  .welcome-text {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #1ea8a6;
+    font-family: 'Fantasy', sans-serif;
+    animation: fadeIn 2s ease-in-out;
+    
+  }
+  
+  .brand-name {
+    color: #007bff;
+  }
+  
+  .welcome-description {
+    font-size: 1.2rem;
+    color: #555;
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    animation: slideUp 1.5s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes slideUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
